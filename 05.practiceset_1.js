@@ -25,3 +25,4 @@ dic = {
   noun: 'pronoun',
   pata :'nahi'
 }
+console.log(dic)
