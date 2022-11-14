@@ -19,3 +19,19 @@ console.log("The value of a with decrement after printing", a--)
 console.log("The value of a with decrement before printing", --a)
 console.log("The value of a ", a)
 console.log(a)
+
+//Assignment Operators
+a=2; // Same as a = 2
+console.log(a)
+a+=4 // Same as a = a+4
+console.log(a)
+a-=3 // Same as a = a-3
+console.log(a)
+a*=3 // Same as a = a*3
+console.log(a)
+a/=3 // Same as a = a/3
+console.log(a)
+a%=3 // Same as a = a%3
+console.log(a)
+a**=3 // Same as a = a**3
+console.log(a)
