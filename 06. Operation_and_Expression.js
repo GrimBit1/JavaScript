@@ -33,5 +33,14 @@ a/=3 // Same as a = a/3
 console.log(a)
 a%=3 // Same as a = a%3
 console.log(a)
-a**=3 // Same as a = a**3
-console.log(a)
+a=7
+a/=3 // Same as a = a/3
+console.log(Math.floor(a))
+
+//Comparison operators (The operators only only outputs the true and false)
+let i = 6
+let j = "6 "
+console.log(i==j) // To check if the value is same
+console.log(i!=j) // To check if value is not same 
+console.log(i===j) // To check if value and its Data type is same
+console.log(i!==j) // To check the value and its Data type is not same
