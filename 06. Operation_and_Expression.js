@@ -44,3 +44,15 @@ console.log(i==j) // To check if the value is same
 console.log(i!=j) // To check if value is not same 
 console.log(i===j) // To check if value and its Data type is same
 console.log(i!==j) // To check the value and its Data type is not same
+
+//Logical Operators
+let x = 5
+let y = 6
+console.log(x<y && x==5); //&& works as and means both condition should be true
+//Truth Table 
+// true && true = true;
+// true && false = false
+// false && true = false
+// false && false = false
+
+console.log(x>y || x==5) // || Works as or means any one condition is true it result as true
