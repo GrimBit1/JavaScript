@@ -56,3 +56,5 @@ console.log(x<y && x==5); //&& works as and means both condition should be true
 // false && false = false
 
 console.log(x>y || x==5) // || Works as or means any one condition is true it result as true
+
+console.log(!false); // ! is a not operator which means if condition is true it will not run
