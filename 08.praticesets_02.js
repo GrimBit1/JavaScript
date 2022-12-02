@@ -22,8 +22,23 @@ switch (a) {
         console.log("Your age is not special")
         break;
 }*/
-
+/*
 // Problem no.3
+let b = Number.parseInt(prompt("Hi please tell a number"))
+console.log(typeof b)
+c=b%2
+d=b%3
+if(c==0){
+    console.log("The number is divisible by 2")
+}
+else if(d==0){
+    console.log("The number is divisible by 3")
+} 
+else{
+  console.log(`hi`)
+    };
+
+// Problem no 4
 let b = Number.parseInt(prompt("Hi please tell a number"))
 console.log(typeof b)
 c=b%2
@@ -31,3 +46,9 @@ d=b%3
 if(c==0 &&d==0){
     console.log("The number is divisible by 2 and 3")
 }
+*/
+
+// Problem no 5
+let age = parseInt(prompt("Enter Your Age"))
+console.log(typeof age);
+console.log(`You can`,age>18? "Drive": "Cannot Drive");
