@@ -11,3 +11,4 @@ const AverSum = (a,b)=>{
     console.log("Done")
 }
 AverSum("Hi", " Aditya");
+ 
