@@ -14,7 +14,7 @@ console.log(c)
 console.log(Boolean(b1))
 console.log(`The word ${b} ${ d ? "is" : "isnt"  } in the sentence`) */
 
-// problem no 3
+// Problem no 3
 let a = "Aditya"
 
 a = a.toLowerCase()
