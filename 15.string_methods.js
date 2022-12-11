@@ -25,6 +25,8 @@ console.log(name.trim());
 
 // Index of function gives index of that string
 let fr = "Kahna"
+fr= fr.concat("Aditya")
+console.log(fr)
 
 
 for (i=0;i <= fr.length; i++){
