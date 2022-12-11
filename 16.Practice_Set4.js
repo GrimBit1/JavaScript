@@ -23,6 +23,7 @@ console.log(a)
 let capsDown = (a) =>{
     a = a.toLowerCase()
     console.log(a)
+
 }
 capsDown("Hi");
 
