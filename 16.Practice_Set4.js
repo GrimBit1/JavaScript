@@ -27,3 +27,6 @@ let capsDown = (a) =>{
 }
 capsDown("Hi");
 
+// Prolem no 4
+let b = "Please give me Rs 1000"
+console.log(b.slice("Please give me Rs ".length))
