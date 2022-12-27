@@ -23,6 +23,3 @@ console.log(a,b1) //This will modify original array and returns first element
 // Unshift function (opposite of push function )
 let c2 = a.unshift(56) // This will add new element in beginning and returns new array length
 console.log(a,c2)
-
-// Delete function 
-let d = a.dele
