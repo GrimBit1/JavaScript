@@ -1,4 +1,5 @@
 const prompt=require("prompt-sync")({sigint:true});
+
 let z = (prompt("Enter the number"))
 console.log(typeof z);
 let num = parseInt(z)
