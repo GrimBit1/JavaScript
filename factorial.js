@@ -7,4 +7,3 @@ const prompt=require("prompt-sync")({sigint:true});
 // console.log(a)
 
 // New Method for factorial
-let a = parseInt(prompt("Enter the number to find the factorial"))
