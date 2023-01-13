@@ -20,3 +20,4 @@ console.log(`The number is bigger than the correct one`);}
 }
 let i = 100 -arr.length
 console.log(`Your score is ${i} %`);
+// hi im alive
