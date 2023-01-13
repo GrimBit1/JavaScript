@@ -1,3 +1,6 @@
+const prompt=require("prompt-sync")({sigint:true});
+
+
 // Question 
 let a = parseInt(Math.random()*101)
 console.log(a);
