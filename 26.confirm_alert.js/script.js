@@ -11,5 +11,10 @@ console.log(a)
 
 let b = confirm("do you want to write in document") // confirm returns boolean value as true or false
 if (b){
-    document.write("a")
+    document.write("<div style=\"background-color: aqua;\"> Hi</div>") // Document.write write in the html
+}
+let changecss = () =>{
+    let a = document.getElementsByTagName("link")[1]
+    document.write(a)
+    a.href = "style2.css"
 }
