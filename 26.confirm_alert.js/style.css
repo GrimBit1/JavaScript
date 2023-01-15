@@ -1,3 +1,13 @@
 body {
     background-color: brown;
 }
+button{
+    color: aqua;
+    background-color: greenyellow;
+}
+.none{
+    display: none;
+}
+.dis{
+    display: inline;
+}
