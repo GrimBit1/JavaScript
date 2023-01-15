@@ -19,3 +19,19 @@ let changecss = () =>{
 let changecss2 = () =>{
     document.getElementsByTagName('link')[1].href = 'style.css'
 }
+let click = 0
+let clicked = () =>{
+    click++;
+    if (click%2==1){
+        changecss()
+    }
+    
+    else if (click%2==0){
+        changecss2()
+    }
+    else{
+        
+    }
+    console.log(click)
+
+}    
