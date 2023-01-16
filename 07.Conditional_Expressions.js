@@ -6,7 +6,7 @@ a = Number.parseInt(a)
 console.log(typeof a)
 console.log(a)
 
-if(a=0){
+if(a==0){
   console.log("Age is invalid");
 }
 else if(a>9 && a<18){
@@ -29,4 +29,4 @@ else{
 
 a=18
 //Ternary operator 
-console.log("Hi Im" , a<18? "Aditya":"Adi")
+console.log("Hi Im" , a<18?"Aditya":"Adi")
