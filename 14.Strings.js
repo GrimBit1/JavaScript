@@ -16,4 +16,4 @@ console.log(`Hi im \tAditya`);
 // \t put the tab in the sentence 
 
 console.log(`Hi im \rAditya`);
-// \r doesn't print before it
+//Anything before \r doesn't print 

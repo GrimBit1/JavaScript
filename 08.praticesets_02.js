@@ -43,7 +43,7 @@ let b = Number.parseInt(prompt("Hi please tell a number"))
 console.log(typeof b)
 c=b%2
 d=b%3
-if(c==0 &&d==0){
+if(c==0 && d==0){
     console.log("The number is divisible by 2 and 3")
 }
 */
