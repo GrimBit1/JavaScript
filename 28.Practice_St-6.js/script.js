@@ -5,23 +5,23 @@
 // };
 // print("Hi Aditya");
 // print(2 + 2);
-// let ageask = () => {
-//   let age = parseInt(prompt("Enter your Age"));
-//   if (age < 18 &&  age > 0) {
-//     alert("You Can't Drive");
-//   } else if (age >= 18) {
-//     alert("You Can Drive");
-//   } else if (age < 0) {
-//     console.error("The is in negative");
-//   } else {
+let ageask = () => {
+  let age = parseInt(prompt("Enter your Age"));
+  if (age < 18 &&  age > 0) {
+    alert("You Can't Drive");
+  } else if (age >= 18) {
+    alert("You Can Drive");
+  } else if (age < 0) {
+    console.error("The is in negative");
+  } else {
     
-//   }
-// };
-// ageask();
-// let a = confirm("Do you Want to see the Question again");
-// if (a) {
-//   ageask();
-// }
+  }
+};
+ageask();
+let a = confirm("Do you Want to see the Question again");
+if (a) {
+  ageask();
+}
 
 // Question 4
 let changeurl =() =>{
