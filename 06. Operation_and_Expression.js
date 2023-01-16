@@ -1,4 +1,5 @@
-//A fragment of code that produces a value is called an expression. Every value writtenn literally is an expression      for Ex: 
+//A fragment of code that produces a value is called an expression. Every value written literally is an expression      
+//For Ex: 
 77
 "Aditya"
 console.log(14)

@@ -19,7 +19,7 @@ object.key = "Aditya"
 console.log(object)
 // Yes
 
-//  Q.5 Write a js program to creat a word-meaning dictionary of 5 word?
+//  Q.5 Write a js program to create a word-meaning dictionary of 5 word?
 dic = {
   aditya : "Name",
   noun: 'pronoun',
