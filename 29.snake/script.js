@@ -17,6 +17,11 @@ const game = () => {
     z = "w";
   } else {
     alert("You can't choose any other ");
+    let retry = confirm("Retry");
+      if (retry) {
+        game();
+      }
+    return; // To break the function if input is other than the required option
   }
 
   // This code is for computer to choose between 3 choices
@@ -24,7 +29,7 @@ const game = () => {
 
   let com_choice = parseInt(Math.random() * 3);
 
-  console.log(com_choice);
+  console.log(Choices[com_choice]);
 
   let com_c = Choices[com_choice]; // We got our choice from the computer
 
@@ -48,12 +53,24 @@ const game = () => {
       }
     } else if (j == "s") {
       alert("You Won");
+      let retry = confirm("Retry");
+      if (retry) {
+        game();
+      }
     } else {
       alert("Computer Won");
+      let retry = confirm("Retry");
+      if (retry) {
+        game();
+      }
     }
   } else if (z == "s") {
     if (j == "g") {
       alert("Computer Won");
+      let retry = confirm("Retry");
+      if (retry) {
+        game();
+      }
     } else if (j == "s") {
       alert("Both Choose Same");
       let retry = confirm("Retry");
@@ -62,12 +79,24 @@ const game = () => {
       }
     } else {
       alert("You Won");
+      let retry = confirm("Retry");
+      if (retry) {
+        game();
+      }
     }
   } else {
     if (j == "g") {
       alert("You Won");
+      let retry = confirm("Retry");
+      if (retry) {
+        game();
+      }
     } else if (j == "s") {
       alert("Computer Won");
+      let retry = confirm("Retry");
+      if (retry) {
+        game();
+      }
     } else {
       alert("Both Choose Same");
       let retry = confirm("Retry");
@@ -77,4 +106,7 @@ const game = () => {
     }
   }
 };
-game()
+setTimeout(game, 2000);
+setTimeout(() => {
+  console.log("Delayed for 1 second.");
+}, 1000);
