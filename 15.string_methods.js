@@ -12,6 +12,10 @@ console.log(name.slice(2,4))
 // one more method to slice the string
 console.log(name.slice(2))// It will slice from 2 to end
 
+// Split function splits the string to different array elements
+let Aditya = 'Aditya is good boy'
+console.log('This is split output',Aditya.split(" "))
+
 name ="Aditya"
 // method to replace character in strings
 console.log(name.replace("a","i")) // (But only first it founds in the string)
