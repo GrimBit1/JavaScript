@@ -1,0 +1,12 @@
+#btn{
+    background-color: aqua;
+    cursor: pointer;
+    /* transition:all ease-in 0.5s; */
+}
+#line{
+    height: 10px;
+    width: 100%;
+    background-color: black;
+    position: static;
+    transition: background-color 2s ease-in, transform 2s ease-in; /*This is to give transition to a particular effect */
+}
