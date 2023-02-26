@@ -16,7 +16,7 @@
 // }
 
 // // console.dir(btn)
-
+let prev = 0
 let img = document.getElementById('img')
 const statusCodes = [
     { status: '200', message: 'OK' },
@@ -90,18 +90,21 @@ const statusCodes = [
     { status: '525', message: 'SSL Handshake Failed' },
     { status: '598', message: 'Network read timeout error' },
     { status: '599', message: 'Network connect timeout error' },]
-    
-    const rand_cat =()=>{
-        let i = parseInt(Math.random()* statusCodes.length)
-        console.log(i)
-        let j = statusCodes[i].status
-        img.src = `https://http.cat/${j}.jpg`
-        
-    } 
-setInterval(rand_cat,1000)
+
+const rand_cat = () => {
+    let i = parseInt(Math.random() * statusCodes.length)
+    while (i == prev) {
+        i = parseInt(Math.random() * statusCodes.length)
+    }
+    console.log(i)
+    let j = statusCodes[i].status
+    img.src = `https://http.cat/${j}.jpg`
+    prev = i
+}
+setInterval(rand_cat, 1000)
 
 let circle = document.getElementById("circle")
 console.log(circle)
-circle.addEventListener('click',()=>{
+circle.addEventListener('click', () => {
     circle.classList.toggle('glow')
 })
