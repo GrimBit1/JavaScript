@@ -1,4 +1,3 @@
-console.log("Hi");
 
 let p1 = new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -13,6 +12,7 @@ let p2 = new Promise((resolve, reject) => {
         resolve("After 2 second");
 
     }, 12000);
+    console.log("Hi")
 
 });
 
