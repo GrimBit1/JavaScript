@@ -8,3 +8,4 @@ let promise = new Promise((resolve, reject) => {
 console.log(promise);
 console.log(res);
 // Kuch Samajh nahi aya 🥲
+//* Abh aa gaya 😊
