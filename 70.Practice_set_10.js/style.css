@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.container {
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  column-gap: 2vw;
+  row-gap: 2vw;
+  /* grid-auto-flow: column;
+  grid-auto-rows: 150px; */
+  grid: auto / auto auto auto auto;
+  max-width: fit-content;
+  max-width: "-moz-fit-content";
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+   justify-content: space-between;
+}
+.card-img-top {
+  object-fit: cover;
+  width: 286px;
+  height: 222px;
+}

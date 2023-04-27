@@ -2,12 +2,12 @@ const prompt = require("prompt-sync")();
 
 
 // console.log("Hi")
-// // Synchronous programming
+//! Synchronous programming
 // let a = prompt("What is your height")
 // let b = prompt('What is your weight')
 // console.log(a,b)
 
-// //Asynchronous programming
+//!Asynchronous programming
 // console.log("Start")
 // setTimeout(() => {
 //     console.log("Hi , this is set timeout")

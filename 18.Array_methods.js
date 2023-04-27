@@ -3,7 +3,7 @@ let a = [1, 3, 54, 5, 3, 2]
 let a1 = a.toString()
 console.log(a1)
 
-//This will make aray to string and join all the element with "-"
+//This will make array to string and join all the element with "-"
 let b = a.join("-")
 console.log(b)
 
