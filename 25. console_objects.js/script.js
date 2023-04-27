@@ -14,9 +14,9 @@ let obj = {
 };
 console.table(obj); // this will make an table for an object
 
-console.warn("Hey you r chutiya") // will warn in console
+console.warn("Hey you r bad boy") // will warn in console
 
-console.error("Hey you r chutiya") // will error in console
+console.error("Hey you r bad boy") // will error in console
 
 // Timer in console
 console.time("a") // will give time taken between these two

@@ -14,11 +14,11 @@ console.log("hi");
 // });
 
 
-// // promise.then((value) => {
-// //     // Then runs when the promise is resolved
-// //     console.log(value);
+// promise.then((value) => {
+//--                              .then runs when the promise is resolved
+//     console.log(value);
 
-// // });
+// });
 
 
 // promise.catch((error) => { // this will work when error is came and it will catch the error and not log the error

@@ -29,7 +29,7 @@ console.log(a)
 // Splice function 
 let c =[1,2,3,4,5,6,7,8,9]
 c.splice(2, 4 , 102)
-// 2 means starting from index no 2 4 means element to remove the 4 elements and 102 to replace the remove number 
+// 2 means starting from index no 2, 4 means element to remove the 4 elements and 102 to replace the remove number 
 console.log(c)
 
 // Slice function 

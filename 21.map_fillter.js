@@ -1,4 +1,4 @@
-// // Map array method is like forEach but creates new array with new element
+//* Map array method is like forEach but creates new array with new element
 //  let arr = [23,31,14,15]
 //  console.log(arr)
 //  let a = arr.map((a,b,c)=>{

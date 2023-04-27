@@ -1,11 +1,11 @@
 // "use strict";
 // console.log("hi")
 
-// // Searching the dom by class name
+//* Searching the dom by class name
 // let a = document.getElementsByClassName("card-title")
 // console.log(a)
 
-// // Searching the dom with selector name
+//* Searching the dom with selector name
 // let b = document.querySelectorAll(".car-title") // This gives card-title collection means all
 // console.log(b)
 // let c = document.querySelector(".card-title") // This will give first element and it is optimised than index[0]
