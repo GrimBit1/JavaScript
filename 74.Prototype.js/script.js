@@ -2,14 +2,14 @@ let obj = {
     name: "Aditya",
     language: "JavaScript",
     run: () => {
-        alert("Self run"); //* if the object has its own property then it will not inherit it from another
+        console.log("Self run"); //* if the object has its own property then it will not inherit it from another
     },
 };
 //*-- Prototype is used inherit the properties from other object
 
 let p = {
     run: () => {
-        alert("Run");
+        console.log("Run");
     },
 };
 
